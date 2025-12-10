@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #messages{
+            height: 200px;
+            width: 580px;
+            border: 1px solid silver;
+            overflow-y: scroll;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Socket io példa</h1>
+    <hr>
+    <div id="messages"></div>
+    <br>
+    <input type="text" id="msgInput" placeholder="írj egy üzenetet.........">
+    <button id="sendBtn">Küldés</button>
+
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./client.js"></script>
+</body>
+</html>
